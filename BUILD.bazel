@@ -1,0 +1,11 @@
+load("@io_bazel_rules_docker//container:container.bzl", "container_layer")
+
+container_layer(
+    name = "a/layer",
+    files = [],
+)
+
+container_layer(
+    name = "b/layer",
+    files = [],
+)
